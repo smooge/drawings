@@ -5,15 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="960" height="750" as="geometry" />
-        </mxCell>
-        <mxCell id="T4m-lKm9hitmyTdmc8eZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="760" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="70" y="40" width="1600" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="Developer" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="160" height="730" as="geometry" />
+          <mxGeometry y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-8" value="Tag a release" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="20" y="160" width="100" height="60" as="geometry" />
@@ -22,7 +17,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-13" value="Deal with problems" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="60" y="350" width="80" height="70" as="geometry" />
+          <mxGeometry x="30" y="350" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T4m-lKm9hitmyTdmc8eZ-34" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="60" y="40" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="77e6c97f196da883-1" source="77e6c97f196da883-8" target="77e6c97f196da883-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -31,7 +29,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="Github" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="160" y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-3" source="77e6c97f196da883-11" target="77e6c97f196da883-9">
           <mxGeometry relative="1" as="geometry" />
@@ -51,7 +49,7 @@
           <mxGeometry x="25" y="630" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Packit" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="320" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="320" y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-12" value="Create MRs" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
@@ -60,19 +58,25 @@
           <mxGeometry x="30" y="430" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="src.fpo" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="480" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="480" y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-15" value="MRs to&amp;nbsp;&lt;div&gt;python-ramalama&lt;/div&gt;&lt;div&gt;(EPEL/Fedora)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="T4m-lKm9hitmyTdmc8eZ-35" value="Anything to do here?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="40" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Fedora Maintainer" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="640" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="640" y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-16" value="Merge?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="30" y="280" width="80" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="T4m-lKm9hitmyTdmc8eZ-33" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="55" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Fedora Koji++ Sysem" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="800" y="20" width="160" height="730" as="geometry" />
+          <mxGeometry x="800" y="20" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-17" value="Build RPM" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-7" vertex="1">
           <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
@@ -109,10 +113,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-2" value="Fedora Konflux++ System" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="60" width="160" height="730" as="geometry" />
+          <mxGeometry x="1030" y="60" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-4" value="Fedora Delivery System" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="60" width="160" height="730" as="geometry" />
+          <mxGeometry x="1190" y="60" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-5" value="RPMs in updates" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="T4m-lKm9hitmyTdmc8eZ-4">
           <mxGeometry x="30" y="540" width="100" height="60" as="geometry" />
@@ -121,13 +125,13 @@
           <mxGeometry x="30" y="455" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-6" value="Quay.io" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="60" width="160" height="730" as="geometry" />
+          <mxGeometry x="1350" y="60" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-29" value="Containers in ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T4m-lKm9hitmyTdmc8eZ-6">
           <mxGeometry x="20" y="630" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-8" value="End User" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="60" width="160" height="730" as="geometry" />
+          <mxGeometry x="1510" y="60" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-9" value="dnf install/update" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="T4m-lKm9hitmyTdmc8eZ-8">
           <mxGeometry x="20" y="455" width="100" height="60" as="geometry" />
