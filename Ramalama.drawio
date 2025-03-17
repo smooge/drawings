@@ -112,7 +112,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4m-lKm9hitmyTdmc8eZ-2" value="Fedora Konflux++ System" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
+        <mxCell id="T4m-lKm9hitmyTdmc8eZ-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Konflux++ System&lt;/span&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
           <mxGeometry x="1030" y="60" width="160" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="T4m-lKm9hitmyTdmc8eZ-4" value="Fedora Delivery System" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
